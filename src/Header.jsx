@@ -66,7 +66,7 @@ function Header(){
         </div>
         
         
-        <Link to="/checkout" style={{ textDecoration: "none" }}>
+        <Link to="/frontend-1/checkout" style={{ textDecoration: "none" }}>
         <div className="nav_itemBasket">
           <ShoppingCartIcon />
           <span className="nav_itemLinetwo nav_basketCount">{basket.length}</span>
