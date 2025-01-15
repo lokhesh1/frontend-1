@@ -16,13 +16,13 @@ function App() {
 
     <Route path="/login" element={<> <Login/></>} />
 
-    <Route path="/checkout" element={<> <Header/> <Checkout/> </>} />
+    <Route path="/frontend-1/checkout" element={<> <Header/> <Checkout/> </>} />
    
     <Route path="/frontend-1" element={<><Header/> <Home /> </>} />
 
-    <Route path="/:products" element={<><Header/> <ProductList /> </>} />
+    <Route path="/frontend-1/:products" element={<><Header/> <ProductList /> </>} />
 
-    <Route path="/products/:productIds" element={<><Header/> <ProductDetails /> </>} />
+    <Route path="/frontend-1/products/:productIds" element={<><Header/> <ProductDetails /> </>} />
 
         
 
