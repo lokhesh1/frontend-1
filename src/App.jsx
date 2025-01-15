@@ -18,7 +18,7 @@ function App() {
 
     <Route path="/checkout" element={<> <Header/> <Checkout/> </>} />
    
-    <Route path="/" element={<><Header/> <Home /> </>} />
+    <Route path="/frontend-1" element={<><Header/> <Home /> </>} />
 
     <Route path="/:products" element={<><Header/> <ProductList /> </>} />
 

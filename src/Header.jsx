@@ -42,7 +42,7 @@ function Header(){
     //};
     return(
         <div className="header">
-        <Link to="/" style={{ textDecoration:"none" }}>
+        <Link to="/frontend-1" style={{ textDecoration:"none" }}>
            <div className="header_logo">
               <LocalMallIcon className='header_logoImage' fontSize='large'/>
               <h2 className='header_logoTitle'>ZAAK</h2>
