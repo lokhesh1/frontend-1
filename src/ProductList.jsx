@@ -6,8 +6,10 @@ import { useParams } from "react-router-dom";
 function  ProductList() {
     const [data,setData]=useState([]);
    const{products}= useParams();
+   console.log(products);
     useEffect(()=>{
         const fetchData=async () =>{
+          
             try{const res=await axios.get(`https://backend-1-fcyo.onrender.com/${products}`);
             setData(res.data);}
             catch(error){
