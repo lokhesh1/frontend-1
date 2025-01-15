@@ -10,7 +10,7 @@ function  ProductList() {
     useEffect(()=>{
         const fetchData=async () =>{
           
-            try{const res=await axios.get(`https://backend-1-fcyo.onrender.com/${products}`);
+            try{const res=await axios.get(`https://backend-1-fcyo.onrender.com//frontend-1/${products}`);
             setData(res.data);}
             catch(error){
               console.log("error in fetching data");
